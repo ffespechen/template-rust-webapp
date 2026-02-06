@@ -34,7 +34,7 @@ Asegúrate de tener instalado:
 1. **Generar el proyecto:**
 
    ```bash
-   cargo generate --git [https://github.com/ffespechen/template-rust-webapp](https://github.com/ffespechen/template-rust-webapp) --name mi-proyecto-sensor
+   cargo generate --git https://github.com/ffespechen/template-rust-webapp --name mi-proyecto-sensor
    ```
 
 2. **Configurar el entorno:**
