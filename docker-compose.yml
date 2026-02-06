@@ -1,0 +1,18 @@
+version: '3.8'
+
+# Definición del servicio de ejemplo MongoDB
+services:
+  mongodb:
+    image: mongo:8.0.4
+    container_name: mongodb
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_sensor:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=flavio
+      - MONGO_INITDB_ROOT_PASSWORD=psswrd
+      - MONGO_INITDB_DATABASE=sensor_db
+
+volumes:
+  mongo_sensor:

@@ -1,0 +1,15 @@
+[template]
+cargo_generate_version = ">=0.17.0"
+
+[placeholders]
+database = { type = "string", prompt = "Seleccioná la base de datos:", choices = ["PostgreSQL", "SQLite", "MongoDB"], default = "MongoDB" }
+
+[placeholders.author_name]
+type = "string"
+prompt = "Autor del proyecto: "
+default = "Usuario Anónimo"
+
+[placeholders.email]
+type = "string"
+prompt = "Correo electrónico del autor: "
+default = "usuario@ejemplo.com"
