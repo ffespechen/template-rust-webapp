@@ -56,27 +56,19 @@ Asegúrate de tener instalado:
 
 ## 📂 Estructura del Proyecto
 
+```bash
 .
 ├── src/
-
 │ ├── models/ # Estructuras de datos y validaciones
-
 │ ├── handlers/ # Lógica de negocio (API y Vistas HTML)
-
 │ ├── routes/ # Definición y prefijos de endpoints
-
 │ ├── db.rs # Conexión y gestión de Bases de Datos
-
 │ ├── state.rs # Estado compartido de la aplicación (Arc)
-
 │ └── main.rs # Punto de entrada y configuración
-
 ├── templates/ # Archivos de plantilla Askama (.html)
-
 ├── uploads/ # Almacenamiento local de archivos/imágenes
-
 ├── .env # Configuración sensible (No incluir en git)
-
 └── docker-compose.yml
+```
 
 ## 🤖 Desarrollado usando el ecosistema de Rust 🦀.
